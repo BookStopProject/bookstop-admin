@@ -2,7 +2,6 @@ import { useAuth } from "../auth";
 
 export function useAPI() {
   const { auth } = useAuth();
-  console.log(process.env.PREACT_APP_API_URL);
   return {
     async get(pathname) {
       const res = await fetch(`${process.env.PREACT_APP_API_URL}${pathname}`, {

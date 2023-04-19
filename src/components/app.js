@@ -1,4 +1,4 @@
-import { Router } from "preact-router";
+import Router from "preact-router";
 import { Toaster } from "react-hot-toast";
 import Header from "./header";
 

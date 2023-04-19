@@ -1,4 +1,3 @@
-import { Link } from "preact-router/match";
 import { useAuth } from "../../auth";
 
 const Login = () => {
@@ -41,11 +40,11 @@ const Header = () => {
     <header>
       <h1>BookStop Admin</h1>
       <nav style={{ display: "flex", gap: "12px" }}>
-        <Link href="/">Home</Link>
-        <Link href="/users">Users</Link>
-        <Link href="/tradein">Trade in</Link>
-        <Link href="/locations">Locations</Link>
-        <Link href="/browses">Browses</Link>
+        <a href="/">Home</a>
+        <a href="/users">Users</a>
+        <a href="/tradein">Trade in</a>
+        <a href="/locations">Locations</a>
+        <a href="/browses">Browses</a>
       </nav>
       <Logout />
     </header>

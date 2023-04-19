@@ -210,7 +210,7 @@ const BrowseCreate = () => {
 
   return (
     <div>
-      <h2>Create Location</h2>
+      <h2>Create Browse</h2>
       <form onSubmit={doCreate}>
         <label>Name</label>
         <input required id="b_name" type="text" />
